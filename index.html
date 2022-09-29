@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/8338eb325d.js" crossorigin="anonymous"></script>
+    <link href="../dist/output.css" rel="stylesheet">
+    <title>Landing Page</title>
+</head>
+<style>
+    #hero_background{
+        background: url(..\img\AdobeStock_337370467_Preview.jpeg);
+    }
+</style>
+<body>
+
+    <!-- Navbar -->
+    <nav class="relative container mx-auto p-6 border">
+        <!--Flex Container-->
+        <div class="flex items-center justify-between">
+            <!-- Logo -->
+
+            <div class="pt-2">
+                <img src="https://www.trackpro.co.uk/assets/images/logo.png" alt="" >
+            </div>
+            <!-- Menu Items -->
+            <div class="hidden md:flex space-x-8">
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Gallery</a>
+                <a href="#">Prices</a>
+                <a href="#">Contact</a>
+            </div>
+            <!--Button-->
+            <a href="#" class="hidden p-3 px-6 pt-2 text-black rounded-full baseline md:block"> Login</a>
+        </div>
+    </nav>
+
+    <!--HERO-->
+    <section id="hero">
+        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+
+            <!--Text-->
+            <div class="flex flex-col mb-32 space-y-12 md:w-1/2" >
+                <h1 class="max-w text-4xl font-bold text-cennter md:text-5xl md:text-left">
+                    The most powerful Workflow & Management system & IT Solutions
+                </h1>
+                <p class="max-w-sm text-center md:text-left">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, aspernatur.
+                </p>
+                <div class="flex justify-center md:justify-start">
+                    <a href="#" class=" md-block p-3  px-6 pt-2 rounded-full baseline">
+                        Login</a>
+                </div>
+            </div>
+
+            <!--Image-->
+        <div class="md:w-1/2" id="hero_background">
+                <img src="https://as1.ftcdn.net/v2/jpg/03/37/37/04/1000_F_337370467_Yj9zVg4o79FQSjfG1aiVoRN4vao8mMaB.jpg" alt="">
+        </div>
+        </div>
+        <div class="flex mx-auto justify-between container">
+            <div>
+                <i class="fa-solid fa-laptop-mobile" style="font-size: 70px;"></i>
+                <div class="icon icon-ecommerce-graph2"></div>
+            </div>
+            <div>
+                <img src="https://pngimg.com/uploads/microsoft/microsoft_PNG13.png" style="width:200px;margin:0px auto;display:block">      
+            </div>
+            <div>
+                <i class="fa-solid fa-computer fa-2xl"></i>
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <!--Feautures-->
+        <!--Flex Container-->
+        <div class="container flex flex-col px-4 mx auto mt-10 space-y-12 md:space-y-0 md:flex-row">
+            <!--Title-->
+            <div class="flex flex-col space-y-12 md:w-1/2">
+                <h2 class="max-w-md text-4xl font-bold text-center md:text-left">
+                    What is unique about Trackpro?
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque officia non, facere, 
+                    earum corrupti repudiandae 
+                    hic distinctio provident unde expedita, sapiente tempora.
+                     Consequatur saepe ipsum nobis natus sit accusamus numquam?
+                </p>
+                <!--Numbered List-->
+                <div class="flex flex-col space-y-8 md:w-1/2">
+                </div>
+            </div>
+        </div>
+        <!--Numbered List-->
+
+    </section>
+</body>
+</html>
